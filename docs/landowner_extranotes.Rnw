@@ -1,0 +1,89 @@
+\documentclass{article}
+\usepackage{Sweave}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+\urlstyle{same}
+\usepackage{tabularx}
+\usepackage{siunitx}
+\usepackage{amssymb} % for math symbols
+\usepackage{amsmath} % for aligning equations
+\usepackage{textcomp}
+\usepackage{mdframed}
+\usepackage{natbib}
+\bibliographystyle{..//references/styles/besjournals.bst}
+\usepackage[small]{caption}
+\setlength{\captionmargin}{30pt}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{10pt}
+\topmargin -1.5cm        
+\oddsidemargin -0.04cm   
+\evensidemargin -0.04cm
+\textwidth 16.59cm
+\textheight 21.94cm 
+%\pagestyle{empty} %comment if want page numbers
+\parskip 7.2pt
+\renewcommand{\baselinestretch}{1.5}
+\parindent 0pt
+%\usepackage{lineno}
+%\linenumbers
+
+\newmdenv[
+  topline=true,
+  bottomline=true,
+  skipabove=\topsep,
+  skipbelow=\topsep
+]{siderules}
+
+\begin{document}
+
+\noindent \textbf{\Large{Landowner Document: NOTES}}
+
+
+\textbf{copied from PA website:}\textit{``The Family Forest Carbon Program is a new program, co-created by the American Forest Foundation and The Nature Conservancy, to address climate change through family-owned forestland, providing companies an opportunity to make a positive impact on the environment, buy carbon credits and reduce their carbon footprint.}
+
+
+\textit{In the U.S., families and individuals own the largest portion---38\%---of all forests. Yet these owners, with most owning parcels between 20 to 500 acres, have been unable to access carbon markets due to high upfront costs and complexity. The Family Forest Carbon Program helps solve this challenge, opening 290 million acres of forestland to additional carbon sequestration potential."}
+
+\textbf{copied from PA website:} \textit{``The FFCP offers companies: \\
+1) Carbon credits generated from the carbon captured by many family forest owners who are taking positive action in their forests across a landscape. \\
+2) Improved forests as well as better wildlife habitat, protected water resources and more resilient forests for the future. \\
+3) Local community engagement by supporting rural Americans and economic stimulus.\\"}
+
+copied from PA website: \textit{``Monitoring and measurement of carbon takes a practice-based approach, meaning the carbon is calculated based on forest stock changes, rather than the costly forest carbon inventories. This reduces expenses to landowners by 75\% compared to traditional carbon offsets markets."}
+
+copied from PA website: \textit{``CO-CREATING A NEW CARBON ACCOUNTING METHODOLOGY THAT WORKS FOR SMALL LANDOWNERS WITH VERRA
+The AFF and TNC teams are using a new innovative methodology to measure carbon sequestered by family forests, co-created with Verra, the non-profit organization that oversees the Verified Carbon Standard (VCS), the world’s leading voluntary program for the certification of greenhouse gas emissions reduction projects. \\}
+
+\textit{This new innovative methodology takes a practice-based approach that allows the program to streamline the measurement process, while also getting to more accurate accounting. Meaning:
+
+The forest practices landowners conduct have been modeled to scientifically calculate the carbon sequestered.
+Measurement of the carbon sequestered through the program is based on forest stock changes seen through taking a positive action from these practices (Traditionally carbon is measured by costly carbon inventories taken over the life of the contract).
+The carbon measurements are then verified by a third-party, to ensure that issues like permanence, leakage and additionality are appropriately addressed.
+ 
+
+This new methodology is pending accreditation at the end of 2020."}
+
+
+
+
+
+\textbf{copied from PA website:} \textit{ ``THE LANDOWNER ENROLLMENT PILOT IN PENNSYLVANIA \\
+The Family Forest Carbon Program launched its first pilot in select counties in Pennsylvania, recruiting landowners who are eligible based on size and goals for their land. The Program provides those enrolled with incentive payments to implement geographically specific sustainable forestry practices that increase sequestration and storage of carbon, while also improving the health of the forest.\\}
+
+
+
+
+Specifically, landowners can participate in two practices: \\
+1) Growing Mature Forests - The Growing Mature Forests practice promotes the growth of larger, higher quality trees by limiting harvesting over a 20-year contract period, in line with the landowner’s management plan. \\
+2) Enhancing Future Forests – The Enhancing Future Forests practice promotes robust successful regeneration of new forests by having the landowner reduce competing vegetation following or preceding a regeneration harvest. This will allow quality trees to have the space, sunlight and water needed to grow. \\
+
+
+\end{document}
